@@ -1,0 +1,117 @@
+@mixin place (){
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+}
+
+.form {
+    margin: 117px 0 95px 0;
+    &__row {
+        display: flex;
+    }
+    &__title {
+        margin: 0 92px 0 0;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        color: #000000;
+    }
+    &__subtitle {
+        width: 55%;
+        margin: 53px 92px 0 0;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        color: #000000;
+    }
+    &__regist {
+        display: flex;
+        margin-bottom: 24px;
+    }
+    &__select {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[type="text"] {
+        padding: 15px 0 15px 25px;
+        outline: none;
+        border: 1px solid#132743;
+        border-radius: 5px;
+        width: 100%;
+        &:valid:not(:placeholder-shown) {
+            border: 1px solid #0c0;
+        }
+        &:invalid:not(:placeholder-shown) {
+            border: 1px solid #c00;
+        }
+    }
+    input[type="text"]::placeholder {
+        @include place ();
+    }
+    &__text {
+        margin-right: 60px;
+    }
+    &__text:last-child {
+        margin-right: 0;
+    }
+    input[type="number"] {
+        margin-bottom: 24px;
+        padding: 15px 0 15px 25px;
+        outline: none;
+        border: 1px solid#132743;
+        border-radius: 5px;
+        width: 100%;
+    }
+    input[type="number"]::placeholder {
+        @include place ();
+    }
+    select {
+    @include place ();
+    padding: 15px 0 15px 25px;
+    color: #1f1f1f;
+    width: 100%;
+    outline: none;
+    border: 1px solid#132743;
+    border-radius: 5px;
+    margin-bottom: 27px;
+    appearance: none;
+    background-color: transparent;
+    }
+
+    &__label1 {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: url("../images/form/Chevrolet.svg");
+            right: 26px;
+            top: 30%;
+            transform: translateY(-30%);
+            z-index: -1;
+        }
+    }
+
+    button {
+    @include place ();
+    color: #1f1f1f;
+    background-color: #ED4C5C;
+    padding: 16.5px 34px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    button:hover {
+        color: #ED4C5C;
+        background-color: #fff;
+        transition-duration: 0.8s;
+        border: 1px solid #ED4C5C;
+        }
+}

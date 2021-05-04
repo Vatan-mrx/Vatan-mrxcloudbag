@@ -1,0 +1,99 @@
+.header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    &__nav {
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        display: flex;
+        column-gap: 9px;
+        cursor: pointer;
+    }
+    &__title {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+    &__menu {
+        display: flex;
+        list-style-type: none;
+        column-gap: 25px;
+    }
+    &__item {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    &__item:hover {
+        color: #d14351;
+        background-color: #fff;
+        border-radius: 5px;
+        font-size: 20px;
+        transition-duration: 0.8s;
+        cursor: pointer;
+    }
+    &__form {
+        display: flex;
+        column-gap: 25px;
+        align-items: center;
+    }
+    &__btn {
+        height: 40px;
+        width: 100px;
+        border: 1px solid #FFFFFF;
+        border-radius: 6px;
+        outline: none;
+        background-color: transparent;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    &__btn:hover {
+        background-color: #fff;
+        color: #d14351;
+        transition-duration: 0.8s;
+    }
+    &__langSelect {
+        width: 96px;
+        height: 32px;
+        padding-left: 43px;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        color: #fff;
+    }
+
+    &__icon {
+        margin-right: -15%;
+
+    }
+
+    &__logo-burger {
+        display: none;
+    }
+
+    &__lang {
+        color: black;
+    }
+}

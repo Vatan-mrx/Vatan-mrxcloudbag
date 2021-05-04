@@ -1,0 +1,26 @@
+@import "../fonts/lato/stylesheet.css";
+@import "../libs/boostrap/bootstrap-grid.min.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+/* Header */
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@import "header";
+@import "home";
+@import "video";
+@import "features";
+@import "techno";
+@import "focus";
+@import "form";
+@import "footer";
+@import "media";

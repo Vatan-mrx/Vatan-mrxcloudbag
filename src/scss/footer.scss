@@ -1,0 +1,82 @@
+@mixin title () {
+    font-family: Lato,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+
+.footer {
+    background-color: #FAFAFA;
+    &__row {
+        display: flex;
+        padding: 85px 0 0 0;
+    }
+    /*&__col-3 {
+        margin-right: 30px;
+    }
+    &__col-3:nth-child(2) {
+        margin-right: 217px;
+    }
+    &__col-3:nth-child(3) {
+        margin-right: 166px;
+    }
+    &__col-3:last-child {
+        margin-right: 0;
+    }*/
+    &__title {
+        @include title ();
+        margin-bottom: 30px;
+    }
+    &__subtitle {
+        font-family: Lato,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: #101010;
+    }
+    &__subtitle1 {
+        font-family: Lato,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: #101010;
+        width: 60%;
+    }
+    &__number {
+        margin-top: 11px;
+        margin-bottom: 20px;
+    }
+    &__icon {
+        margin-right: 12px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    &__icon:last-child {
+        margin-right: 0;
+    }
+    &__visa {
+        cursor: pointer;
+        width: 100%;
+    }
+    &__copy {
+        margin-top: 141px;
+        margin-bottom: 86px;
+    }
+    &__ul {
+        list-style-type: none;
+    }
+    &__a {
+        text-decoration: none;
+        font-family: Lato,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 160%;
+        text-transform: capitalize;
+        color: #000000;
+    }
+}

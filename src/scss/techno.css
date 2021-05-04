@@ -1,0 +1,88 @@
+.techno {
+  margin: 63px 0 115px 0;
+}
+
+.techno__zagolovok {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+}
+
+.techno .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.techno__col {
+  margin-top: 52px;
+  /*padding-right: 30px;*/
+  text-align: center;
+  position: relative;
+}
+
+.techno__title {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 120px;
+  text-align: center;
+  color: rgba(16, 16, 16, 0.45);
+  cursor: pointer;
+}
+
+.techno__photo {
+  position: absolute;
+  top: 25%;
+  left: 31%;
+  cursor: pointer;
+}
+
+.techno__photo1 {
+  position: absolute;
+  top: 27%;
+  left: 34%;
+  cursor: pointer;
+}
+
+.techno__photo2 {
+  position: absolute;
+  top: 27%;
+  left: 33%;
+  cursor: pointer;
+}
+
+.techno__photo3 {
+  position: absolute;
+  top: 31.3%;
+  left: 39%;
+  cursor: pointer;
+}
+
+.techno__subtitle {
+  margin-top: 10px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #101010;
+}
+
+.techno__text {
+  margin-top: 10px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+}
+/*# sourceMappingURL=techno.css.map */

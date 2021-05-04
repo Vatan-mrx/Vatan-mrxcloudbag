@@ -1,0 +1,75 @@
+.features {
+    padding: 63px 0 229px;
+    background: #FAFAFA top left/100% 100% no-repeat;
+    &__title{
+        font-family: Lato, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+        text-align: center;
+        margin-bottom: 70px;
+    }
+    &__col {
+        height: 250px;
+        background: top left/100% 100% no-repeat;
+        padding: 157px 0 0;
+    }
+    &__Mcol:first-child &__col{
+       background-image: url("../images/view/Bg1.png");
+    }
+    &__Mcol:nth-child(2) &__col{
+        background-image: url("../images/view/Bg2.png");
+    }
+    &__Mcol:nth-child(3) &__col{
+        background-image: url("../images/view/Bg3.png");
+    }
+    &__card {
+        margin: 0 auto;
+        width: 90%;
+        height: 200%;
+        padding: 33px 0 25px;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        z-index: 3;
+        text-align: center;
+    }
+    &__card-title {
+        font-family: Lato, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #101010;
+        margin-bottom: 20px;
+    }
+    &__card-subtitle {
+        font-family: Lato, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        text-align: center;
+        color: #101010;
+        margin-bottom: 18px;
+    }
+    &__card-link {
+        font-family: Lato,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 150%;
+        color: #d14351;
+        text-decoration: none;
+    }
+    &__card-link:hover {
+        color: #fff;
+        font-size: 15px;
+        background-color: #d14351;
+        border-radius: 5px;
+        transition-duration: 0.8s;
+
+    }
+}

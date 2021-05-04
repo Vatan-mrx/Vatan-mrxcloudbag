@@ -1,0 +1,45 @@
+@mixin text() {
+    font-size: 14px;
+    font-family: Lato,sans-serif;
+    font-weight: normal;
+    color: #fff;
+    font-style: normal;
+}
+
+.focus {
+    padding: 94px 0 95px;
+    background-color: #ED4C5C;
+    &__row {
+        display: flex;
+    }
+    &__title {
+        @include text ();
+        margin: 42px 92px 0 0;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 43px;
+
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        @include text ();
+        margin: 30px 92px 0 0;
+        margin-bottom: 50px;
+        line-height: 140%;
+        color: #1f1f1f;
+        text-align: justify;
+    }
+    &__icon{
+        width: 6%;
+        margin-right: 23px;
+        cursor: pointer;
+    }
+    &__icon:last-child {
+        margin-right: 0;
+        width: 5.8%;
+    }
+    &__col-6 {
+        height: 311px;
+        background: url("../images/focus/Slider.png")bottom right/100% 100% no-repeat;
+    }
+    }

@@ -1,0 +1,211 @@
+.form {
+  margin: 117px 0 95px 0;
+}
+
+.form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form__title {
+  margin: 0 92px 0 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.form__subtitle {
+  width: 55%;
+  margin: 53px 92px 0 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000000;
+}
+
+.form__regist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.form__select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form input[type="text"] {
+  padding: 15px 0 15px 25px;
+  outline: none;
+  border: 1px solid #132743;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form input[type="text"]:valid:not(:placeholder-shown) {
+  border: 1px solid #0c0;
+}
+
+.form input[type="text"]:invalid:not(:placeholder-shown) {
+  border: 1px solid #c00;
+}
+
+.form input[type="text"]::-webkit-input-placeholder {
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.form input[type="text"]:-ms-input-placeholder {
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.form input[type="text"]::-ms-input-placeholder {
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.form input[type="text"]::placeholder {
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.form__text {
+  margin-right: 60px;
+}
+
+.form__text:last-child {
+  margin-right: 0;
+}
+
+.form input[type="number"] {
+  margin-bottom: 24px;
+  padding: 15px 0 15px 25px;
+  outline: none;
+  border: 1px solid #132743;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form input[type="number"]::-webkit-input-placeholder {
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.form input[type="number"]:-ms-input-placeholder {
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.form input[type="number"]::-ms-input-placeholder {
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.form input[type="number"]::placeholder {
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+}
+
+.form select {
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  padding: 15px 0 15px 25px;
+  color: #1f1f1f;
+  width: 100%;
+  outline: none;
+  border: 1px solid #132743;
+  border-radius: 5px;
+  margin-bottom: 27px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+}
+
+.form__label1 {
+  position: relative;
+}
+
+.form__label1::before {
+  position: absolute;
+  content: url("../images/form/Chevrolet.svg");
+  right: 26px;
+  top: 30%;
+  -webkit-transform: translateY(-30%);
+          transform: translateY(-30%);
+  z-index: -1;
+}
+
+.form button {
+  font-family: Lato,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(19, 39, 67, 0.5);
+  color: #1f1f1f;
+  background-color: #ED4C5C;
+  padding: 16.5px 34px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  color: #ED4C5C;
+  background-color: #fff;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+  border: 1px solid #ED4C5C;
+}
+/*# sourceMappingURL=form.css.map */

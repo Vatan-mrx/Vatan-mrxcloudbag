@@ -1,0 +1,47 @@
+.focus {
+  padding: 94px 0 95px;
+  background-color: #ED4C5C;
+}
+.focus__row {
+  display: flex;
+}
+.focus__title {
+  font-size: 14px;
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  color: #fff;
+  font-style: normal;
+  margin: 42px 92px 0 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+.focus__subtitle {
+  font-size: 14px;
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  color: #fff;
+  font-style: normal;
+  margin: 30px 92px 0 0;
+  margin-bottom: 50px;
+  line-height: 140%;
+  text-align: justify;
+}
+.focus__icon {
+  width: 6%;
+  margin-right: 23px;
+  cursor: pointer;
+}
+.focus__icon:last-child {
+  margin-right: 0;
+  width: 5.8%;
+}
+.focus__col-6 {
+  width: 50%;
+  height: 311px;
+}
+.focus__col-6_second {
+  background: url("../images/focus/Slider.png") top left/100% 100% no-repeat;
+  position: relative;
+}

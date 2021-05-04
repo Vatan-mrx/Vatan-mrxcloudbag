@@ -1,0 +1,45 @@
+.home{
+    background: url("../images/bg/Bg.png")no-repeat top left/ 100% 100%;
+    background-size: cover;
+    padding: 257px 0 187px;
+    text-align: center;
+    &__title {
+        margin-top: 177px;
+        font-family: Lato,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 86px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+       
+    }
+    &__subtitle {
+        margin-top: 39px;
+        font-family: Lato,sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    &__btn {
+        line-height: 17px;
+        margin-top: 39px;
+        align-items: center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        width: 160px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 6px;
+        color: #d14351;
+    }
+    &__btn:hover {
+        background-color: #d14351;
+        color: #fff;
+        transition-duration: 0.8s;
+    }
+}
